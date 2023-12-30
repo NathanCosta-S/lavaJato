@@ -1,0 +1,17 @@
+.img-lavagem {
+  width: 50%;
+  max-height: auto;
+}
+.lavagem {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.info-lavagem {
+  text-align: center;
+  padding: 0 25px;
+  font-weight: 700;
+  color: white;
+}
+

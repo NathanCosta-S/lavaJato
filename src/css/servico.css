@@ -1,0 +1,22 @@
+.title-servico {
+  text-align: center;
+  align-items: center;
+}
+.servico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 100px;
+}
+.servicos {
+  cursor: pointer;
+  text-align: center;
+ 
+  margin: 0 10px;
+ 
+}
+
+.servicos:hover{
+    box-shadow: 0 5px 10px #000000;
+    border-radius: 20px;
+}

@@ -1,0 +1,60 @@
+@media (min-width: 1280px) {
+  .footer {
+    padding: 100px 50px 50px 100px;
+  }
+  .footer .Copyright {
+    font-size: 16px;
+  }
+  .footer form input,
+  .footer form textarea {
+    width: 100%;
+    float: left;
+  }
+  .footer form button {
+    padding: 10px 35px;
+  }
+}
+@media (min-width: 768px) {
+    .footer .left {
+      width: 48%;
+      border-bottom: 0;
+    }
+    .footer .right {
+      width: 48%;
+      padding-left: 4%;
+      border-left: 1px #222424 solid;
+    }
+    .footer form {
+      margin-top: 30px;
+    }
+    .footer form {
+      display: block;
+    }
+    .footer form button {
+      float: none;
+    }
+  }
+  
+
+@media (max-width: 768px) {
+  nav .nav {
+    border-radius: 0;
+  }
+  .servico {
+    padding: 5px;
+    flex-wrap: wrap;
+  }
+
+}
+@media (max-width: 520px) {
+  .lavagem {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .img-lavagem {
+    width: 500px;
+  }
+}
